@@ -1,0 +1,80 @@
+
+
+.Heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    padding: 2rem auto 2rem 0;
+    margin: 2rem auto 3rem 0;
+    text-align: left;
+    color: black;
+    text-shadow: 5px 3px 3px darkslategrey;
+}
+
+.content {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:100%;
+}
+
+.cardtext {
+    width:100%;
+    height: 100%;
+}
+
+.cardcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    display:flex;
+    flex-direction: column;
+    align-self: center;
+    margin:auto;
+    /* padding: 6rem 1vh 4rem ; */
+    width: 29rem;
+    height: 34rem;
+    border: 2px solid gray;
+    margin: 1rem 0 1rem 0;
+    justify-content: space-between;
+    background-color: lightgrey;
+    align-self: center;
+}
+
+.cardtitle {
+    font-size: 1.5rem;
+    padding:0;
+    margin:0;
+}
+
+.picture {
+    width: 100vh;
+    height: 47%;
+    object-fit: cover;
+}
+
+.para {
+    font-size: 1.25rem;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    /* margin: 1px 1px; */
+    cursor: pointer;
+    width: 6rem;
+    height: 3rem;
+    border-radius: 5px;
+  }

@@ -3,10 +3,10 @@
 
 /* Slideshow container */
 .slideshow-container {
-  width: 75%;
+  width: 100%;
   position: relative;
   margin: auto;
-  /* height: 10%; */
+  /* max-height: 10%; */
 }
 
   /* Hide the images by default */
